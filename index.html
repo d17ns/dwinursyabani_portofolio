@@ -2,24 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    // viewport untuk membuat web menjadi responsive
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    // fungsi untuk mengakses file style.css
     <link rel="stylesheet" href="style.css" />
     <title>Home</title>
   </head>
+  // tag body untuk konfigurasi seluruh halaman web
   <body>
     <div class="container">
+      // fungsi untuk konfigurasi menu sidebar dengan mengakses class sidebar
       <div class="sidebar">
         <nav>
+          // fungsi untuk memberikan pilihan menu pada Sidebar
+          // masing-masing menu diarahkan ke masing-masing web tersendiri
+          // yaitu index.html, profile.html, dan contact.html
           <ul>
+            // menu akses ke halaman index.html
             <li><a href="index.html">Home</a></li>
+            // menu akses ke halaman profile.html
             <li><a href="profile.html">Profile</a></li>
+            // menu akses ke halaman contact.html
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
+      // fungsi untuk konfigurasi tampilan utama dengan mengakses class bg content
+      // juga ditambahkan background yang responsive
       <main class="bg content" style="background-image: url(background.jpg);">
         <section class="hero">
-          <div class="bg hero-content">
+          // fungsi untuk konfigurasi tampilan text di dalam tag section dengan mengakses class hero-content
+          <div class="hero-content">
             <h2>DWI NUR SYABANI</h2>
             <br>
             <h3>Network Administrator at CITRANET</h3>
@@ -33,20 +46,28 @@
           </div>
         </section>
       </main>
+      // fungsi konfigurasi menu footer dengan mengakses class footer
       <div class="footer">
         <footer>
+          // fungsi untuk memberikan pilihan menu pada footer
+          // tiap menu memiliki icon masing-masing
+          // tiap menu diarahkan ke url masing-masing
           <ul>
             <li>
+              // menu akses ke profile instagram
               <a href="https://instagram.com/citranetisp" target="_blank"><img src="instagram.png" /></a>
             </li>
             <li>
-                <a href="https://facebook.com/citranetisp" target="_blank"><img src="facebook.png" /></a>
+              // menu akses ke profile facebook
+              <a href="https://facebook.com/citranetisp" target="_blank"><img src="facebook.png" /></a>
             </li>
             <li>
-                <a href="https://twitter.com/citranet" target="_blank"><img src="twitter.png" /></a>
+              // menu akses ke profile twitter
+              <a href="https://twitter.com/citranet" target="_blank"><img src="twitter.png" /></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/dwinursyabani" target="_blank"><img src="linkedin.png" /></a>
+              // menu akses ke profile linkedin
+              <a href="https://www.linkedin.com/in/dwinursyabani" target="_blank"><img src="linkedin.png" /></a>
             </li>
           </ul>
         </footer>
